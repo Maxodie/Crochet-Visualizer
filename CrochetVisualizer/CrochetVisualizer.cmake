@@ -3,11 +3,15 @@ add_library(CrochetVisualizer
 
     CrochetVisualizer/src/Application.hpp
     CrochetVisualizer/src/Application.cpp
-    
+
     CrochetVisualizer/src/LayerManager.hpp
     CrochetVisualizer/src/LayerManager.cpp
 
+    CrochetVisualizer/src/Log/Log.hpp
+    CrochetVisualizer/src/Log/Log.cpp
+
     CrochetVisualizer/src/Core.hpp
+    CrochetVisualizer/src/CrochetVisualizer.hpp
 )
 
 # target_link_libraries(CrochetVisualizer PRIVATE
