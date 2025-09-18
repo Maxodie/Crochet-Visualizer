@@ -3,8 +3,8 @@
 
 void InitEditor(CV::Application& ctx)
 {
-    CLIENT_LOG_DEBUG("Editor edit");
-    CLIENT_LOG_SUCCESS("Editor edit");
+    CORE_LOG_DEBUG("Editor edit");
+    CORE_LOG_SUCCESS("Editor edit");
     CORE_LOG_WARNING("Editor edit");
     CORE_LOG_ERROR("Editor edit");
 
